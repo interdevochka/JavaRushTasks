@@ -1,0 +1,43 @@
+package com.javarush.task.task05.task0527;
+
+/* 
+Том и Джерри
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Mouse jerryMouse = new Mouse("Jerry", 12, 5);
+        Cat tomCat = new Cat();
+        Dog myDog = new Dog();
+
+        //напишите тут ваш код
+    }
+
+    public static class Mouse {
+        String name;
+        int height;
+        int tail;
+
+        public Mouse(String name, int height, int tail) {
+            this.name = name;
+            this.height = height;
+            this.tail = tail;
+        }
+    }
+
+    //напишите тут ваш код
+
+    public static class Dog {
+        String color;
+        int age;
+        String name;
+    }
+
+    public static class Cat {
+        String color;
+        int age;
+        String name;
+
+
+    }
+}
