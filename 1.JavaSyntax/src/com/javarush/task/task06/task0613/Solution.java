@@ -19,7 +19,7 @@ public class Solution {
     Cat catTen = new Cat();
 
     // Выведи значение переменной catCount
-    System.out.println();
+    System.out.println(Cat.catCount);
   }
 
   public static class Cat {
@@ -28,10 +28,7 @@ public class Solution {
 
     // Создай конструктор
     public Cat() {
-      for (int i = 0; catCount < 10; i++) {
-        catCount = catCount + 1;
-
-      }
+      catCount = catCount + 1;
 
     }
 
